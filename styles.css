@@ -8,14 +8,29 @@ body {
     padding:10px;
     margin:10px;
     background:lightsteelblue;
+    border-radius:5px;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:4px solid cornflowerblue;
+}
+
+.assignment img:hover {
+    border:4px dashed blueviolet;
 }
 
 h1 {
     color:rgb(20, 82, 82);
     text-align:center;
+}
+
+a {
+    text-decoration:none;
+    color:royalblue;
+}
+
+a:hover {
+    color:blueviolet;
 }
